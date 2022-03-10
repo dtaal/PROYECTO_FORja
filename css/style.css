@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+* {box-sizing: border-box;
+}
+body {font-family: 'Poppins', sans-serif;}
+:root {
+--dark-color:#1d1451;
+--blue-color:#2CA3AB;
+--gray-color:#C4C4C4;
+--orange-color:#F3610E;
+--red-color:#A40101;
+}
+#container {text-align: right;
+padding:10px;
+justify-content:flex-end;
+margin: 10px;
+flex-direction:row;
+}
+#container div {display: inline;
+margin-left: 50px;}
+
+.ingresar {display:inline;
+border-radius: 20px;
+background-color: #1d1451;
+color: #fff;
+width: 110px;
+height: 25px;
+align-items: center;
+margin-left: 100px;
+}
+
+.ingresar img {width: 30px;
+align-items: center;
+}
+.logo img {margin-left: 50px;
+margin-bottom: 30px;}
+
+.injection {width: 90px;
+align-items: center;}
+
+.linea- {width:1300px;}
+.banner {background-image: url(../img/2.\ medico.png);
+height: 500px;
+}
+
+#text-banner {display:flex;
+flex-direction: column;
+align-items: center;
+padding: 100px 0px;}
+
+#text-banner h2 {color: var(--orange-color);
+font-size: 40px;}
+
+#text-banner h1 {font-size: 50px;
+margin-top: 0px;}
+
+.separador {
+border-bottom: solid 5px var(--blue-color) ;}
+
+#covid- {display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 50px 50px;
+background: url(../img/4.\ covid.jpg);
+}
+
+#covid- h3 {color:var(--dark-color)}
+
+.covid div {display: flex;
+}
+.covid, .covid-2 {display: flex;
+flex-direction:column;
+margin:10px 15px 10px 15px;
+text-align: justify;
+width: 700px;
+align-items: center;}
+
+.covid img {width: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;}
+
+li {list-style: url(../img/6.\ check.svg);
+}
+
+.covid-2 div{
+display:flex;}
+
+.question {width: 40px;
+display: flex;
+align-items: center;}
+
+.oms {width: 150px;}
+
+
+#articlesindex {background-color:var(--dark-color);
+color: #fff;}
+
+#articlesindex div {padding: 1rem;
+border-bottom: 10px
+solid rgb(65, 64, 64);;}
+
+footer {background-color: black; color: #fff;
+text-align: center;
+height: 100px;
+margin-top: 10px;
+padding: 1rem;}
+
+/*ESTILOS INDEX*/
+
+/*ESTILOS lOGIN*/
+
+#form-login {width: 500px;
+height: 650px;
+margin: 5% auto;
+background-color: rgb(255, 255, 255);
+border-radius: 2%;
+display:flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+overflow: hidden;
+box-shadow: 5px 5px 20px rgb(68, 68, 68);
+}
+
+.volver-inicio {background-color: #1d1451; color: #fff;
+border: #2CA3AB solid 2px;
+padding: 5px;
+margin: auto;
+justify-content: center;
+left: 50%;}
+
+.header-form {background-color: rgb(167, 221, 223); 
+padding: 4rem 6.5rem 4rem 6.5rem;
+}
+
+input {
+outline: 0px;
+border-radius: 15px;
+width: 300px;
+background-color:rgba(167, 221, 223, 40%);}
+
+.user {border: solid 2px var(--blue-color);
+padding: 10px;}
+
+.user-password {padding: 20px;}
+
+.user-password h5 {text-decoration: underline;}
+
+.user-password button {background-color: #F3610E;
+padding: 10px 30px 10px 30px;
+border-radius: 15%;
+color: #fff;}
+
+
+/*ESTILOS DASHBOARD*/
+
+#dashboard {display: flex;
+background: url(../img/background-dash.svg); 
+}
+
+.dash-main input {font-family:'Poppins', sans-serif;
+background-color: none;
+outline: 0px;
+height: 50px;}
+
+.dash- {background-color: #1d1451;
+display: flex;
+flex-direction: column;
+width: 300px;
+height: 1000px;
+justify-content: space-evenly;
+}
+
+.dash-aside {background-color: #C4C4C4;
+border:var(--orange-color) solid 4px;
+text-align: center;
+padding: 0.3rem ;
+}
+
+.log-person button {
+justify-content: center;
+width: 200px;
+height: 90px;
+margin-left: 846%;
+background-color: #C4C4C4;
+font-family:'Poppins', sans-serif;
+border: none;}
+
+.log-person i {border-radius: 50%;
+background-color: #fff;
+border: solid 2px var(--orange-color);
+margin-right: 10px;
+padding: 10px;
+}
+
+.dash-main {display: flex;}
+
+
+.dash-main h1 {font-size: 50px;
+color: #F3610E;}
+
+.dash-main img {margin-top: 28.3%;}
+
+.dash-numdoc {text-align: center;
+align-content: center;
+padding-top: 100px;}
+
+.separador img {margin-left: 0%;}
+
+/*ESTILOS PACIENTES LOG*/
+
+#header {background-color: #1d1451;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    }
+.buttons button {border-radius: 50%;
+padding: 15px;
+border: #2CA3AB solid 2px;
+margin-left: 10px;}
+
+.logo img {margin-bottom: 0%; margin: left 0%;}
+
+.add {background-color: #F3610E;
+border-radius: 10%;
+color: #fff;
+border: none;
+padding: 10px;
+margin-top: 30px;
+height: 50px;
+}
+.add i {margin-left: 10px;}
+
+.pacientes-log {display: flex;
+justify-content: space-around;}
+
+.pacientes h1 {text-align: center;
+text-decoration: underline;}
+
+table {border: solid 2px #2CA3AB; 
+text-align: center;
+border-collapse: collapse;
+margin: 50px 50px;
+margin-left: 26%;}
+
+td {background-color: #C4C4C4;
+padding: 10px;}
+
+th {background-color: #1d1451;
+color:#fff; padding: 10px;}
+
+td, th {border: solid 2px #2CA3AB;}
+
+.edit {padding: 10px;
+background-color: #2CA3AB;border: none;}
+
+.delete {padding:10px;background-color: #A40101;
+border: none;
+color: #fff;}
+.delete i {margin-left: 5px;}
+.search-doc {padding: 10px;
+margin-top: 10px;}
+
+.dash-search  {padding: 10px;
+border: #2CA3AB solid 2px;
+background-color: #1d1451;
+color: #fff;
+border-radius: 2%;
+margin-left: 10px;}
+
+/*ESTILOS PACIENTESREGISTER*/
+
+#form-container {background-color: #C4C4C4;
+width: 800px; padding: 20px;
+height: 800px;
+border-radius: 5%;
+display: flex;
+flex-direction: column;
+margin-left: 29%;
+flex-wrap: wrap;}
+
+#form-container input {background-color: #fff;
+width: 200px;
+border-radius: 2px;
+border: #2CA3AB solid 1px;
+height: 30px;
+margin-bottom: 10px;
+font-family: 'Poppins', sans-serif;
+margin-left: 10px;
+margin-right: 10px;
+justify-content:center;}
+
+#form-container select {background-color: #fff;
+border-radius: 2px;
+border: #2CA3AB solid 1px;
+height: 30px;
+margin-bottom: 10px;
+font-family:'Poppins', sans-serif ;
+width: 200px;
+margin-left: 10px;
+margin-right: 10px;}
+
+.pac-separador {background-color: #1d1451;
+color: #fff;
+text-align: center;}
+
+.tittle {display: flex;
+background-color: #2CA3AB;
+color: #fff; align-items: center;
+height: 50px;
+text-align: center;
+border: #000000 solid 1px;
+margin: 10px 0px;
+justify-content: center;
+font-size: 12px;}
+
+
+.tittle i {margin-right: 20px;
+margin-left: 10px;
+color: #000000;
+justify-content: left;}
+
+.pacient-dates, .health {margin: 10px 10px;}
+
+.guardar {background-color: #F3610E;
+border-radius: 10%;
+color: #fff;
+border: none;
+padding: 10px;
+margin-top: 10px;
+margin-left: 48%;}
