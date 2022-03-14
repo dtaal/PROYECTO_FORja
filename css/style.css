@@ -206,7 +206,10 @@ color: #F3610E;}
 align-content: center;
 padding-top: 100px;}
 
-.separador img {margin-left: 0%;}
+.separador- img {margin-top: 30%;
+border-bottom: #2CA3AB solid 5px;}
+
+
 
 /*ESTILOS PACIENTES LOG*/
 
@@ -215,11 +218,14 @@ padding-top: 100px;}
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    }
+}
+
 .buttons button {border-radius: 50%;
 padding: 15px;
 border: #2CA3AB solid 2px;
-margin-left: 10px;}
+margin-left: 10px;
+}
+.buttons i {color: #000000;}
 
 .logo img {margin-bottom: 0%; margin: left 0%;}
 
@@ -234,7 +240,8 @@ height: 50px;
 .add i {margin-left: 10px;}
 
 .pacientes-log {display: flex;
-justify-content: space-around;}
+justify-content: space-around;
+margin-left: 0%;}
 
 .pacientes h1 {text-align: center;
 text-decoration: underline;}
@@ -302,7 +309,11 @@ width: 200px;
 margin-left: 10px;
 margin-right: 10px;}
 
-.pac-separador {background-color: #1d1451;
+a {text-decoration: none;
+color: #fff;}
+
+
+.pac-separador h1 {background-color: #1d1451;
 color: #fff;
 text-align: center;}
 
